@@ -11,7 +11,7 @@
 
 Bu uygulama Xiaomi markasının, Redmi ve Poco alt markaları da dahil olmak üzere, 2020 yılında çıkardığı telefonları listeler.
 
-Bu Android uygulaması; tarafımdan yazılmış <a href="https://raw.githubusercontent.com/BarbarosBerk34/h5190007barbarosberkgelenbe/main/MiPhonesAPI.json"> Web API'den</a> Retrofit kütüphanesi aracılığıyla veri çekip sunmaktadır.
+Bu Android uygulaması; tarafımdan yazılmış <a href="https://raw.githubusercontent.com/BarbarosBerk34/h5190007barbarosberkgelenbe/main/MiPhonesAPI.json" target="_blank"> Web API'den</a> Retrofit kütüphanesi aracılığıyla veri çekip sunmaktadır.
 
 ## Ekran Görüntüleri
 <p>
