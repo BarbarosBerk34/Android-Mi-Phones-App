@@ -3,11 +3,11 @@
 [![java](https://img.shields.io/badge/Java-1.8.xxx-brightgreen.svg)](https://kotlinlang.org/) [![Retrofit](https://img.shields.io/badge/Retrofit-2.xx-orange.svg)](https://google.github.io/dagger/) [![MVC](https://img.shields.io/badge/Clean--Code-MVC-brightgreen.svg)](https://github.com/googlesamples/android-architecture) <a><img src="https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat" alt="API" /></a>
 
 <p align="center">
-<img src="https://github.com/cagataymuhammet/GuestList/blob/master/images/android_arc.png"/>
+<img src="https://github.com/BarbarosBerk34/Android-Mi-Phones-App/blob/master/images/banner.png"/>
 </p>
 
 # 2020 Xiaomi Telefonları Uygulaması
-![appicon](https://github.com/cagataymuhammet/GuestList/blob/master/images/guest_list_app.png)
+![appicon](https://github.com/BarbarosBerk34/Android-Mi-Phones-App/blob/master/images/logo.png)
 
 Bu uygulama Xiaomi markasının, Redmi ve Poco alt markaları da dahil olmak üzere, 2020 yılında çıkardığı telefonları listeler.
 
@@ -15,15 +15,15 @@ Bu Android uygulaması; tarafımdan yazılmış <a href="https://raw.githubuserc
 
 ## Ekran Görüntüleri
 <p>
-  <img height= "400"  src="https://github.com/cagataymuhammet/GuestList/blob/master/images/ss1.png" alt="SS1" />
-  <img height= "400"  src="https://github.com/cagataymuhammet/GuestList/blob/master/images/ss2.png" alt="SS2" />
-  <img height= "400"  src="https://github.com/cagataymuhammet/GuestList/blob/master/images/ss3.png" alt="SS3" />
-  <img height= "400"  src="https://github.com/cagataymuhammet/GuestList/blob/master/images/ss4.png" alt="SS4" />
-  <img height= "400"  src="https://github.com/cagataymuhammet/GuestList/blob/master/images/ss4.png" alt="SS5" />
+  <img height= "400"  src="https://github.com/BarbarosBerk34/Android-Mi-Phones-App/blob/master/images/Screen_1.png" alt="SS1" />
+  <img height= "400"  src="https://github.com/BarbarosBerk34/Android-Mi-Phones-App/blob/master/images/Screen_2.png" alt="SS2" />
+  <img height= "400"  src="https://github.com/BarbarosBerk34/Android-Mi-Phones-App/blob/master/images/Screen_3.png" alt="SS3" />
+  <img height= "400"  src="https://github.com/BarbarosBerk34/Android-Mi-Phones-App/blob/master/images/Screen_4.png" alt="SS4" />
+  <img height= "400"  src="https://github.com/BarbarosBerk34/Android-Mi-Phones-App/blob/master/images/Screen_5.png" alt="SS5" />
 </p>
 
 ## Proje Mimarisi ve Mimari Paket Yapısı
-Bu projede MVC [Model-View-Controller] mimarisi kullanılmıştır.
+Bu projede MVC [Model-View-Controller] mimarisi kullanılmıştır.<br>
 ![Architecture](https://github.com/cagataymuhammet/GuestList/blob/master/images/clean_arch.png)
 
 ## Kütüphaneler ve Araçlar 🛠
