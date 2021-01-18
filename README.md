@@ -1,6 +1,6 @@
 # # [2020'nin Xiaomi Telefonları Uygulaması ( MVC & Java & Retrofit )](https://github.com/BarbarosBerk34/Android-Mi-Phones-App)
 
-[![java](https://img.shields.io/badge/Java-1.8.xxx-brightgreen.svg)](https://kotlinlang.org/) [![Retrofit](https://img.shields.io/badge/Dagger-2.xx-orange.svg)](https://google.github.io/dagger/) [![MVC](https://img.shields.io/badge/Clean--Code-MVC-brightgreen.svg)](https://github.com/googlesamples/android-architecture)] [<a><img src="https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat" alt="API" /></a>]
+[![java](https://img.shields.io/badge/Java-1.8.xxx-brightgreen.svg)](https://kotlinlang.org/) [![Retrofit](https://img.shields.io/badge/Retrofit-2.xx-orange.svg)](https://google.github.io/dagger/) [![MVC](https://img.shields.io/badge/Clean--Code-MVC-brightgreen.svg)](https://github.com/googlesamples/android-architecture) <a><img src="https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat" alt="API" /></a>
 
 <p align="center">
 <img src="https://github.com/cagataymuhammet/GuestList/blob/master/images/android_arc.png"/>
