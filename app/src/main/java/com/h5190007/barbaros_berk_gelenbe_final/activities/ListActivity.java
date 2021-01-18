@@ -66,11 +66,11 @@ public class ListActivity extends AppCompatActivity {
                         progressDialog.setTitle(getString(R.string.progress_wait_tit));
                         progressDialog.setMessage(getString(R.string.progress_wait_msg));
                         progressDialog.setCancelable(false);
+                        progressDialog.show();
                     }
 
                     @Override
                     public void onNext(List<MiPhoneModel> miPhoneList) {
-                        progressDialog.show();
                         miPhones = miPhoneList;
                     }
 
