@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="splash_logo_width">360dp</dimen>
+    <dimen name="splash_logo_height">550dp</dimen>
+
+    <dimen name="list_banner_height">180dp</dimen>
+    <dimen name="match_constraint">0dp</dimen>
+
+    <dimen name="card_view_padding">16dp</dimen>
+
+    <dimen name="phnoe_icon_paddingl">30dp</dimen>
+    <dimen name="phnoe_name_paddingl">30dp</dimen>
+    <dimen name="phone_icon_width">60dp</dimen>
+    <dimen name="phone_icon_height">130dp</dimen>
+    <dimen name="phone_name_width">245dp</dimen>
+    <dimen name="phone_name_size">25sp</dimen>
+    <dimen name="phone_details_size">15sp</dimen>
+
+    <dimen name="detail_photo_height">430dp</dimen>
+    <dimen name="detail_page_padding">10dp</dimen>
+    <dimen name="detail_text_weight">1</dimen>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/card_view_padding"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgPhoneIcon"
+                android:layout_width="@dimen/phone_icon_width"
+                android:layout_height="@dimen/phone_icon_height"
+                android:layout_marginStart="@dimen/phnoe_name_paddingl"
+                android:layout_marginTop="@dimen/card_view_padding"
+                android:layout_marginBottom="@dimen/card_view_padding"
+                android:scaleType="centerCrop"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/txtPhoneName"
+                android:layout_width="@dimen/phone_name_width"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/phnoe_name_paddingl"
+                android:textColor="@color/mi_orange"
+                android:textSize="@dimen/phone_name_size"
+                app:layout_constraintEnd_toEndOf="@+id/txtPrice"
+                app:layout_constraintStart_toEndOf="@+id/imgPhoneIcon"
+                app:layout_constraintTop_toTopOf="@+id/imgPhoneIcon" />
+
+            <TextView
+                android:id="@+id/txtMonthYear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blue_500"
+                android:textSize="@dimen/phone_details_size"
+                app:layout_constraintBottom_toTopOf="@+id/txtPrice"
+                app:layout_constraintStart_toStartOf="@+id/txtPhoneName" />
+
+            <TextView
+                android:id="@+id/txtPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/card_view_padding"
+                android:layout_marginBottom="@dimen/card_view_padding"
+                android:textColor="@color/blue_500"
+                android:textSize="@dimen/phone_details_size"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

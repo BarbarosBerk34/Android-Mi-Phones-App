@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MiPhoneDetailActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgCover"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/detail_photo_height"
+                android:scaleType="fitXY"
+                tools:srcCompat="@drawable/banner" />
+
+            <TextView
+                android:id="@+id/txtTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/blue_200"
+                android:padding="@dimen/detail_page_padding"
+                android:textAlignment="center"
+                android:textColor="@color/mi_orange"
+                android:textSize="@dimen/phone_name_size"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="@dimen/detail_page_padding">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="@dimen/detail_text_weight"
+                    android:text="@string/detail_screen_size"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/phone_details_size"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtScreenSize"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/phone_details_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="@dimen/detail_page_padding">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="@dimen/detail_text_weight"
+                    android:text="@string/detail_screen_tech"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/phone_details_size"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtScreenTech"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/phone_details_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="@dimen/detail_page_padding">
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="@dimen/detail_text_weight"
+                    android:text="@string/detail_cpu"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/phone_details_size"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtCPU"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/phone_details_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="@dimen/detail_page_padding">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="@dimen/detail_text_weight"
+                    android:text="@string/detail_ram"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/phone_details_size"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtRAM"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/phone_details_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="@dimen/detail_text_weight"
+                android:orientation="horizontal"
+                android:padding="@dimen/detail_page_padding">
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="@dimen/detail_text_weight"
+                    android:text="@string/detail_rom"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/phone_details_size"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtROM"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/phone_details_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="@dimen/detail_page_padding">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="@dimen/detail_text_weight"
+                    android:text="@string/detail_batt"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/phone_details_size"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtBattery"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/phone_details_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="@dimen/detail_page_padding">
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="@dimen/detail_text_weight"
+                    android:text="@string/detail_bcams"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/phone_details_size"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtBCameras"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/phone_details_size" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="@dimen/detail_page_padding">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="@dimen/detail_text_weight"
+                    android:text="@string/detail_fcam"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/phone_details_size"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtFCameras"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/phone_details_size" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

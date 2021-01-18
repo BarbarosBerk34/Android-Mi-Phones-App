@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">H5190007_BarbarosBerkGelenbeFinal</string>
+
+    <string name="alert_no_internet_tit">İnternet Bağlantısı Yok</string>
+    <string name="alert_no_internet_msg">Uygulamayı kullanabilmek için internete bağlanın.</string>
+    <string name="alert_no_internet_posBtn">Bağlan</string>
+    <string name="alert_no_internet_negBtn">Kapat</string>
+
+    <string name="alert_exit_tit">Çıkışı Onayla</string>
+    <string name="alert_exit_msg">Çıkış yapmak istiyor musunuz?</string>
+    <string name="alert_exit_posBtn">Evet</string>
+    <string name="alert_exit_negBtn">Hayır</string>
+
+    <string name="progress_wait_tit">Telefonlar Yükleniyor</string>
+    <string name="progress_wait_msg">Lütfen bekleyin...</string>
+
+    <string name="detail_screen_size">Ekran Boyutu: </string>
+    <string name="detail_screen_tech">Ekran Teknolojisi: </string>
+    <string name="detail_cpu">İşlemci: </string>
+    <string name="detail_ram">Bellek (RAM): </string>
+    <string name="detail_rom">Dahili Depolama: </string>
+    <string name="detail_batt">Batarya Kapasitesi: </string>
+    <string name="detail_fcam">Ön Kamera: </string>
+    <string name="detail_bcams">Arka Kameralar: </string>
+
+</resources>
