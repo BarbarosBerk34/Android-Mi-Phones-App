@@ -3,7 +3,7 @@
 [![java](https://img.shields.io/badge/Java-1.8.xxx-brightgreen.svg)](https://kotlinlang.org/) [![Retrofit](https://img.shields.io/badge/Retrofit-2.xx-orange.svg)](https://google.github.io/dagger/) [![MVC](https://img.shields.io/badge/Clean--Code-MVC-brightgreen.svg)](https://github.com/googlesamples/android-architecture) <a><img src="https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat" alt="API" /></a>
 
 <p align="center">
-<img src="https://github.com/BarbarosBerk34/Android-Mi-Phones-App/blob/master/images/banner.png"/>
+<img src="https://github.com/BarbarosBerk34/Android-Mi-Phones-App/blob/master/images/banner.jpg"/>
 </p>
 
 # 2020 Xiaomi Telefonları Uygulaması
@@ -15,16 +15,16 @@ Bu Android uygulaması; tarafımdan yazılmış <a href="https://raw.githubuserc
 
 ## Ekran Görüntüleri
 <p>
-  <img height= "400"  src="https://github.com/BarbarosBerk34/Android-Mi-Phones-App/blob/master/images/Screen_1.png" alt="SS1" />
-  <img height= "400"  src="https://github.com/BarbarosBerk34/Android-Mi-Phones-App/blob/master/images/Screen_2.png" alt="SS2" />
-  <img height= "400"  src="https://github.com/BarbarosBerk34/Android-Mi-Phones-App/blob/master/images/Screen_3.png" alt="SS3" />
-  <img height= "400"  src="https://github.com/BarbarosBerk34/Android-Mi-Phones-App/blob/master/images/Screen_4.png" alt="SS4" />
-  <img height= "400"  src="https://github.com/BarbarosBerk34/Android-Mi-Phones-App/blob/master/images/Screen_5.png" alt="SS5" />
+  <img height= "400"  src="https://github.com/BarbarosBerk34/Android-Mi-Phones-App/blob/master/screens/Screen_1.png" alt="SS1" />
+  <img height= "400"  src="https://github.com/BarbarosBerk34/Android-Mi-Phones-App/blob/master/screens/Screen_2.png" alt="SS2" />
+  <img height= "400"  src="https://github.com/BarbarosBerk34/Android-Mi-Phones-App/blob/master/screens/Screen_3.png" alt="SS3" />
+  <img height= "400"  src="https://github.com/BarbarosBerk34/Android-Mi-Phones-App/blob/master/screens/Screen_4.png" alt="SS4" />
+  <img height= "400"  src="https://github.com/BarbarosBerk34/Android-Mi-Phones-App/blob/master/screens/Screen_5.png" alt="SS5" />
 </p>
 
 ## Proje Mimarisi ve Mimari Paket Yapısı
 Bu projede MVC [Model-View-Controller] mimarisi kullanılmıştır.<br>
-![Architecture](https://github.com/cagataymuhammet/GuestList/blob/master/images/clean_arch.png)
+![Architecture](https://github.com/BarbarosBerk34/Android-Mi-Phones-App/blob/master/images/MimariPaketYapisi.png)
 
 ## Kütüphaneler ve Araçlar 🛠
 <li><a href="https://github.com/square/retrofit">Retrofit</a></li>
