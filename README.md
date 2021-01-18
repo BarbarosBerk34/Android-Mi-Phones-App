@@ -1,4 +1,39 @@
-# 2020's Xiaomi Phones Android App
+# [2020'nin Xiaomi Telefonları Uygulaması ( MVC & Java & Retrofit )](https://github.com/BarbarosBerk34/Android-Mi-Phones-App)
+
+[![java](https://img.shields.io/badge/Java-1.8.xxx-brightgreen.svg)](https://kotlinlang.org/) [![Retrofit](https://img.shields.io/badge/Retrofit-2.xx-orange.svg)](https://google.github.io/dagger/) [![MVC](https://img.shields.io/badge/Clean--Code-MVC-brightgreen.svg)](https://github.com/googlesamples/android-architecture) <a><img src="https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat" alt="API" /></a>
+
+<p align="center">
+<img src="https://github.com/cagataymuhammet/GuestList/blob/master/images/android_arc.png"/>
+</p>
+
+# 2020 Xiaomi Telefonları Uygulaması
+![appicon](https://github.com/cagataymuhammet/GuestList/blob/master/images/guest_list_app.png)
+
+Bu uygulama Xiaomi markasının, Redmi ve Poco alt markaları da dahil olmak üzere, 2020 yılında çıkardığı telefonları listeler.
+
+Bu Android uygulaması; tarafımdan yazılmış <a href="https://raw.githubusercontent.com/BarbarosBerk34/h5190007barbarosberkgelenbe/main/MiPhonesAPI.json"> Web API'den</a> Retrofit kütüphanesi aracılığıyla veri çekip sunmaktadır.
+
+## Ekran Görüntüleri
+<p>
+  <img height= "400"  src="https://github.com/cagataymuhammet/GuestList/blob/master/images/ss1.png" alt="SS1" />
+  <img height= "400"  src="https://github.com/cagataymuhammet/GuestList/blob/master/images/ss2.png" alt="SS2" />
+  <img height= "400"  src="https://github.com/cagataymuhammet/GuestList/blob/master/images/ss3.png" alt="SS3" />
+  <img height= "400"  src="https://github.com/cagataymuhammet/GuestList/blob/master/images/ss4.png" alt="SS4" />
+  <img height= "400"  src="https://github.com/cagataymuhammet/GuestList/blob/master/images/ss4.png" alt="SS5" />
+</p>
+
+## Proje Mimarisi ve Mimari Paket Yapısı
+Bu projede MVC [Model-View-Controller] mimarisi kullanılmıştır.
+![Architecture](https://github.com/cagataymuhammet/GuestList/blob/master/images/clean_arch.png)
+
+## Kütüphaneler ve Araçlar 🛠
+<li><a href="https://github.com/square/retrofit">Retrofit</a></li>
+<li><a href="https://github.com/square/okhttp">OkHttp</a></li>
+<li><a href="https://github.com/ReactiveX/RxJava">RxJava</a></li>
+<li><a href="https://github.com/bumptech/glide">Glide</a></li>
+<li><a href="https://developer.android.com/jetpack/androidx/releases/cardview">CardView</a></li>
+<li><a href="https://developer.android.com/jetpack/androidx/releases/recyclerview">RecyclerView</a></li>
+
 
 License
 --------
