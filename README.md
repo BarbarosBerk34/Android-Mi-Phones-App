@@ -23,7 +23,7 @@ Bu Android uygulaması; tarafımdan yazılmış <a href="https://raw.githubuserc
 </p>
 
 ## Proje Mimarisi ve Mimari Paket Yapısı
-Bu projede MVC [Model-View-Controller] mimarisi kullanılmıştır.<br>
+Bu projede MVC [Model-View-Controller] mimarisi kullanılmıştır.<br><br>
 ![Architecture](https://github.com/BarbarosBerk34/Android-Mi-Phones-App/blob/master/images/MimariPaketYapisi.png)
 
 ## Kütüphaneler ve Araçlar 🛠
