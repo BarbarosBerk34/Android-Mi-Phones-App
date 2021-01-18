@@ -1,6 +1,9 @@
 # [2020'nin Xiaomi Telefonları Uygulaması ( MVC & Java & Retrofit )](https://github.com/BarbarosBerk34/Android-Mi-Phones-App)
 
-[![java](https://img.shields.io/badge/Java-1.8.xxx-brightgreen.svg)](https://kotlinlang.org/) [![Retrofit](https://img.shields.io/badge/Retrofit-2.xx-orange.svg)](https://google.github.io/dagger/) [![MVC](https://img.shields.io/badge/Clean--Code-MVC-brightgreen.svg)](https://github.com/googlesamples/android-architecture) <a><img src="https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat" alt="API" /></a>
+![java](https://img.shields.io/badge/Java-1.8.xxx-brightgreen.svg)
+![Retrofit](https://img.shields.io/badge/Retrofit-2.xx-orange.svg)
+![MVC](https://img.shields.io/badge/Clean--Code-MVC-brightgreen.svg)
+<a><img src="https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat" alt="API" /></a>
 
 <p align="center">
 <img src="https://github.com/BarbarosBerk34/Android-Mi-Phones-App/blob/master/images/banner.jpg"/>
@@ -11,7 +14,7 @@
 
 Bu uygulama Xiaomi markasının, Redmi ve Poco alt markaları da dahil olmak üzere, 2020 yılında çıkardığı telefonları listeler.
 
-Bu Android uygulaması; tarafımdan yazılmış <a href="https://raw.githubusercontent.com/BarbarosBerk34/h5190007barbarosberkgelenbe/main/MiPhonesAPI.json"> Web API'den</a> Retrofit kütüphanesi aracılığıyla veri çekip sunmaktadır.
+Bu Android uygulaması; tarafımdan yazılmış <a href="https://raw.githubusercontent.com/BarbarosBerk34/h5190007barbarosberkgelenbe/main/MiPhonesAPI.json" target="_blank"> Web API'den</a> Retrofit kütüphanesi aracılığıyla veri çekip sunmaktadır.
 
 ## Ekran Görüntüleri
 <p>
@@ -23,7 +26,7 @@ Bu Android uygulaması; tarafımdan yazılmış <a href="https://raw.githubuserc
 </p>
 
 ## Proje Mimarisi ve Mimari Paket Yapısı
-Bu projede MVC [Model-View-Controller] mimarisi kullanılmıştır.<br>
+Bu projede MVC [Model-View-Controller] mimarisi kullanılmıştır.<br><br>
 ![Architecture](https://github.com/BarbarosBerk34/Android-Mi-Phones-App/blob/master/images/MimariPaketYapisi.png)
 
 ## Kütüphaneler ve Araçlar 🛠
